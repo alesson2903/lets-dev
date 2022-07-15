@@ -1,14 +1,22 @@
+import Titulo from "./componentes/Titulo"
 
-function App() {
+function MeuSite() {
+  const disparaAlert = (label: string) => {
+    alert(label);
+  }
+
+  function MeuBotao(props: any) {
+    const { label } = props;
+    return <button onClick={() => disparaAlert(label)}>{label}</button>;
+  }
+
   return (
     <div>
-      <h1>
-        Olá Mundo!
-      </h1>
+     <Titulo titulo="Home" />
+     <MeuBotao label="botão 1" />
+     <MeuBotao label="botão 2" />
     </div>
-  )
+  );
 }
 
-
-export default App;
-
+export default MeuSite;
