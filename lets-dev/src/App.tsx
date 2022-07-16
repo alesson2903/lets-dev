@@ -1,22 +1,12 @@
-import Titulo from "./componentes/Titulo"
+import { FormBasico, FormCompleto} from "./componentes/telas"
 
-function MeuSite() {
-  const disparaAlert = (label: string) => {
-    alert(label);
-  }
-
-  function MeuBotao(props: any) {
-    const { label } = props;
-    return <button onClick={() => disparaAlert(label)}>{label}</button>;
-  }
-
-  return (
-    <div>
-     <Titulo titulo="Home" />
-     <MeuBotao label="botão 1" />
-     <MeuBotao label="botão 2" />
-    </div>
-  );
+function App() {
+    return (
+        <>
+       <FormCompleto />
+    {/*<FormBasico /> */}
+    </>
+    )
 }
 
-export default MeuSite;
+export default App;
