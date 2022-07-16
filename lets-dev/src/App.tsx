@@ -1,12 +1,13 @@
-import { FormBasico, FormCompleto} from "./componentes/telas"
+import { FormBasico, FormCompleto, Callback, Promise, AsyncAwait,} from "./componentes/telas"
 
 function App() {
     return (
-        <>
-       <FormCompleto />
-    {/*<FormBasico /> */}
-    </>
-    )
+    // <FormCompleto />
+   // <FormBasico /> 
+   // <Callback />
+   // <Promise />
+     <AsyncAwait />
+    );
 }
 
 export default App;

@@ -18,7 +18,7 @@ d="M12.5 0C5.5971 0 0 5.74219 0 12.8181C0 18.4821 3.58259 23.2812 8.5491 24.9777
 </svg>
 
 
-<a href="" target="_blank">
+<a href="https://github.com/alesson2903/lets-dev" target="_blank">
     Repositório Github
 </a>
 </s.Row>

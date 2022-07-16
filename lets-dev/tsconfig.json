@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "src/componentes/telas/form-basico/index.ts", "src/componentes/telas/form-basico/form-completoletosrc/componentes/telas/form-basico/chamadas-apiadassrc/componentes/telas/form-basicoorm-basico"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
