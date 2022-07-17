@@ -2,7 +2,7 @@ import React, { FormEvent, useState, useEffect } from "react";
 import * as s from "./styled-form-completo";
 import { Banner } from "../../imagens";
 import Titulo from "../../Titulo";
-import {Row,ColumnInput,Footer, Label,RowSelectors,InputButton} from "..";
+import {Row,ColumnInput,Footer, Label,RowSelectors,InputButton} from "../..";
 
 
 
