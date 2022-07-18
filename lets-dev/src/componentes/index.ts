@@ -14,6 +14,7 @@ import ConsumindoApis from "./telas/consumindo-apis/consumindo-apis";
 import Header from "./header/header";
 import TituloSecao from "./titulo-secao/titulo-secao";
 import Card from "./card/card";
+import SobrePaipers from "./telas/sobre-paipers/sobre-paipers";
 
-export {FormCompleto, Card, TituloSecao, Header, FormBasico, ColumnInput, Footer, InputButton, Callback, Promise, AsyncAwait, Label, Row, RowSelectors, Home, ConsumindoApis };
+export {FormCompleto, SobrePaipers, Card, TituloSecao, Header, FormBasico, ColumnInput, Footer, InputButton, Callback, Promise, AsyncAwait, Label, Row, RowSelectors, Home, ConsumindoApis };
 

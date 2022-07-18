@@ -147,3 +147,28 @@ form button {
 }
 
 
+/* responsividade */
+
+@media (min-width : 992px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width : 991px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media (max-width : 767px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width : 479px) {
+  html {
+    font-size: 75%;
+  }
+}

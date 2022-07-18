@@ -36,7 +36,7 @@ const formBasico: React.FC = () => {
 
       const cancelar = (event: FormEvent) => { 
         event.preventDefault();
-         alert("Cancelando...");
+         window.location.href = "/";
          };
         
 
