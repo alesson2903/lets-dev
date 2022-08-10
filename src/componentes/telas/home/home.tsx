@@ -82,17 +82,15 @@ const Home = () => {
         <s.Row>
           <img src={Logo} />
           <s.Column>
-            <h3>Aqui vai o nome do(a) Dev</h3>
+            <h3>Alesson</h3>
             <p>
-              Este espaço é destinado à sua descrição de perfil. Conta aqui quem
-              você é, gostos, hobbies e o que achar interessante. Descreve
-              também as características profissionais e o que te motivou a
-              ingressar na área do desenvolviemento de software.
+              Gosto muito de tecnologia, sempre cresci ao lado de computadores e celulares.
+              Também gosto muito do mundo automotivo e gostaria de algum jeito mesclar minhas duas paixões em algo único ;).
             </p>
             <p>
-              Você pode substituir a foto a lado pela sua melhor foto e colocar
-              suas redes nos botões abaixo!
+              Logo abaixo você pode visitar algumas de minhas redes sociais.
             </p>
+
             <s.ButtonGroup>
               <InputButton
                 outlined
@@ -100,7 +98,7 @@ const Home = () => {
                 value="LinkedIn"
                 onClick={() => {
                   //Aqui vai o seu perfil do linkedIn
-                  window.open("https://www.linkedin.com", "_blank");
+                  window.open("https://www.linkedin.com/in/alesson-oliveira-64a799231/", "_blank");
                 }}
                 title="Vai para o perfil do Linkedln"
               />
@@ -109,7 +107,7 @@ const Home = () => {
                 value="Ver perfil"
                 onClick={() => {
                   //Aqui vai o seu perfil do GitHub
-                  window.open("https://github.com", "_blank");
+                  window.open("https://github.com/alesson2903", "_blank");
                 }}
                 title="Vai para o perfil do GitHub"
               />
